@@ -66,3 +66,17 @@ table {
     font-weight: 700;
     padding-bottom: 2em;
 }
+
+.navigation {
+    height: 10em;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 7%;
+    padding: 2em 16em;
+}
+
+.navigation_element {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 2em;
+}
