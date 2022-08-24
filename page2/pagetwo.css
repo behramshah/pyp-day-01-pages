@@ -41,3 +41,28 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.header {
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCAC9;
+    background-color: #CCCAC9;
+    margin: 0 7%;
+}
+
+.header_name {
+    height: 7em;
+    font-size: 3.5em;
+    font-weight: 800;
+    padding-top: 2em;
+}
+
+.header_quote {
+    height: 3em;
+    font-size: 1.8em;
+    font-weight: 700;
+    padding-bottom: 2em;
+}
