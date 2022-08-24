@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.headerShop {
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20%;
+    border-bottom: 2px solid black;
+}
+
+.headerShop_element {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.mainContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
+.mainContent_categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories_item {
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.count {
+    color: gray;
+    font-weight: 400;
+}
+
+.mainContent_goods {       
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: repeat(3, 360px [col-start]);
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.goods_item {
+    width: 450px;
+    height: 450px;
+}
+
+.item_image {
+    width: 350px;
+    height: 350px;
+}
+
+.shoename{
+    font-weight: bold;
+}
